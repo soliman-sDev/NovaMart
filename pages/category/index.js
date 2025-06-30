@@ -30,7 +30,7 @@ export default function Category({categories= []}) {
 }
 
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   await db.connect();
   const categories = await Product.distinct("category");
   
