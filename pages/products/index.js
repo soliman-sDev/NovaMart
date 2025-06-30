@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
-import Hero from "@/Components/Hero";
 import Container from "@/Components/Container";
 import Products from "@/Components/Products";
 import Pagination from "@/Components/Pagination";
@@ -26,7 +25,6 @@ export default function Home({products = []}) {
       <div className=" bg-[#E4EBF5] dark:bg-black w-full min-h-screen">
         <Navbar />
         <Container>
-          <Hero />
           <Products products={currentPosts} />
           <Pagination
             totalPosts={products.length}
