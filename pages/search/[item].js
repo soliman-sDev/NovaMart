@@ -1,10 +1,10 @@
 import Head from "next/head";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import Container from "@/Components/Container";
-import Footer from "@/Components/Footer";
-import Navbar from "@/Components/Navbar";
-import Products from "@/Components/Products";
+import Container from "@/components/Container";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import Products from "@/components/Products";
 import axios from "axios";
 
 export default function Home() {

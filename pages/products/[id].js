@@ -1,10 +1,10 @@
 import Head from "next/head";
-import Navbar from "@/Components/Navbar";
-import ProductInfo from "@/Components/ProductInfo";
-import Footer from "@/Components/Footer";
-import Container from "@/Components/Container";
-import Products from "@/Components/Products";
-import db from "@/Utils/db";
+import Navbar from "@/components/Navbar";
+import ProductInfo from "@/components/ProductInfo";
+import Footer from "@/components/Footer";
+import Container from "@/components/Container";
+import Products from "@/components/Products";
+import db from "@/utils/db";
 import Product from "@/models/Product";
 
 const ProductDetails = ({product}) => {

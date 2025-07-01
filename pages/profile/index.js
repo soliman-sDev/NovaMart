@@ -4,10 +4,10 @@ import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 import axios from "axios";
 import Head from "next/head";
-import Container from "@/Components/Container";
-import Footer from "@/Components/Footer";
-import Pheader from "@/Components/Pheader";
-import { getError } from "@/Utils/error";
+import Container from "@/components/Container";
+import Footer from "@/components/Footer";
+import Pheader from "@/components/Pheader";
+import { getError } from "@/utils/error";
 
 export default function ProfileScreen() {
   const { data: session } = useSession();

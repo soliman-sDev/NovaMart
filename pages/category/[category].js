@@ -1,11 +1,11 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
-import Navbar from "@/Components/Navbar"
-import Container from "@/Components/Container";
-import Products from "@/Components/Products";
-import Footer from "@/Components/Footer";
+import Navbar from "@/components/Navbar"
+import Container from "@/components/Container";
+import Products from "@/components/Products";
+import Footer from "@/components/Footer";
 import Product from "@/models/Product";
-import db from "@/Utils/db";
+import db from "@/utils/db";
 const CategoryDetails = ({products}) => {
   const { query } = useRouter();
 

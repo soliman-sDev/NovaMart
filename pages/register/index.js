@@ -2,13 +2,13 @@ import Link from "next/link";
 import React, { useEffect } from "react";
 import { signIn, useSession } from "next-auth/react";
 import { useForm } from "react-hook-form";
-import { getError } from "@/Utils/error";
+import { getError } from "@/utils/error";
 import { toast } from "react-toastify";
 import { useRouter } from "next/router";
 import Head from "next/head";
-import Container from "@/Components/Container";
-import Footer from "@/Components/Footer";
-import Navbar from "@/Components/Navbar";
+import Container from "@/components/Container";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 import axios from "axios";
 
 export default function LoginScreen() {

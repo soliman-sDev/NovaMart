@@ -1,6 +1,6 @@
 import { getToken } from "next-auth/jwt";
 import Order from "@/models/Order";
-import db from "@/Utils/db";
+import db from "@/utils/db";
 
 const handler = async (req, res) => {
   const token = await getToken({ req, secret: process.env.NEXTAUTH_SECRET });

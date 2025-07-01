@@ -6,11 +6,11 @@ import Cookies from "js-cookie";
 import React, { useContext, useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import Head from "next/head";
-import Pheader from "@/Components/Pheader";
-import Container from "@/Components/Container";
-import Footer from "@/Components/Footer";
-import { getError } from "@/Utils/error";
-import { Store } from "@/Utils/Store";
+import Pheader from "@/components/Pheader";
+import Container from "@/components/Container";
+import Footer from "@/components/Footer";
+import { getError } from "@/utils/error";
+import { Store } from "@/utils/store";
 import { getSession } from "next-auth/react";
 
 

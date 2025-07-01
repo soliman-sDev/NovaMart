@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Categories from "@/Components/Categories";
-import Nabar from "@/Components/Navbar";
-import Container from "@/Components/Container";
-import Footer from "@/Components/Footer";
-import db from "@/Utils/db";
+import Categories from "@/components/Categories";
+import Nabar from "@/components/Navbar";
+import Container from "@/components/Container";
+import Footer from "@/components/Footer";
+import db from "@/utils/db";
 import Product from "@/models/Product";
 
 export default function Category({categories= []}) {

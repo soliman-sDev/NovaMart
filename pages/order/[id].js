@@ -1,16 +1,16 @@
 import { PayPalButtons, usePayPalScriptReducer } from "@paypal/react-paypal-js";
 import axios from "axios";
 import Head from "next/head";
-import Pheader from "@/Components/Pheader";
-import Container from "@/Components/Container";
-import Footer from "@/Components/Footer";
+import Pheader from "@/components/Pheader";
+import Container from "@/components/Container";
+import Footer from "@/components/Footer";
 import { useSession } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useReducer } from "react";
 import { toast } from "react-toastify";
-import { getError } from "@/Utils/error";
+import { getError } from "@/utils/error";
 
 function reducer(state, action) {
   switch (action.type) {

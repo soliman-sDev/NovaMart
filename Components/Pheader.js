@@ -6,13 +6,13 @@ import { ToastContainer } from "react-toastify";
 import { useTheme } from "next-themes";
 import "react-toastify/dist/ReactToastify.css";
 import { useRouter } from "next/router";
-import { Store } from "@/Utils/Store";
+import { Store } from "@/utils/store";
 import Loading from "./Loading";
 import { Menu, Transition } from "@headlessui/react";
 import { FaMoon, FaSun, FaShoppingCart, FaChevronDown } from "react-icons/fa";
 import { IoIosMenu } from "react-icons/io";
 import { FaRegUser } from "react-icons/fa6";
-import Cart from "@/Components/Cart";
+import Cart from "@/components/Cart";
 
 const Pheader = () => {
   const { systemTheme, theme, setTheme } = useTheme();

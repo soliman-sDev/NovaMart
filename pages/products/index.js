@@ -1,11 +1,11 @@
 import Head from "next/head";
-import Navbar from "@/Components/Navbar";
-import Footer from "@/Components/Footer";
-import Container from "@/Components/Container";
-import Products from "@/Components/Products";
-import Pagination from "@/Components/Pagination";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import Container from "@/components/Container";
+import Products from "@/components/Products";
+import Pagination from "@/components/Pagination";
 import { useState } from "react";
-import db from "@/Utils/db";
+import db from "@/utils/db";
 import Product from "@/models/Product";
 
 export default function Home({products = []}) {

@@ -3,10 +3,10 @@ import React, { useContext, useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import Cookies from "js-cookie";
 import Head from "next/head";
-import Pheader from "@/Components/Pheader";
-import Container from "@/Components/Container";
-import Footer from "@/Components/Footer";
-import { Store } from "@/Utils/Store";
+import Pheader from "@/components/Pheader";
+import Container from "@/components/Container";
+import Footer from "@/components/Footer";
+import { Store } from "@/utils/store";
 
 export default function PaymentScreen() {
   const [selectedPaymentMethod, setSelectedPaymentMethod] = useState("");

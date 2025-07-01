@@ -1,9 +1,9 @@
 import { useRouter } from "next/router";
 import React from "react";
 import Head from "next/head";
-import Pheader from "@/Components/Pheader";
-import Container from "@/Components/Container";
-import Footer from "@/Components/Footer";
+import Pheader from "@/components/Pheader";
+import Container from "@/components/Container";
+import Footer from "@/components/Footer";
 
 export default function Unauthorized() {
   const router = useRouter();

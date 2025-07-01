@@ -1,7 +1,7 @@
 import "tailwindcss/tailwind.css";
 import "@/styles/globals.css";
 import { SessionProvider, useSession } from "next-auth/react";
-import { StoreProvider } from "../Utils/Store";
+import { StoreProvider } from "../utils/store";
 import { ThemeProvider } from "next-themes";
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 import { useRouter } from "next/router";

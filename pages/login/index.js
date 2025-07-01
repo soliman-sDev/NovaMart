@@ -1,15 +1,15 @@
 import Link from "next/link";
 import Head from "next/head";
-import Container from "@/Components/Container";
-import Footer from "@/Components/Footer";
-import Pheader from "@/Components/Pheader";
+import Container from "@/components/Container";
+import Footer from "@/components/Footer";
+import Pheader from "@/components/Pheader";
 import { useForm } from "react-hook-form";
 import React, { useState, useEffect } from "react";
 import { signIn, useSession } from "next-auth/react";
-import { getError } from "@/Utils/error";
+import { getError } from "@/utils/error";
 import { toast } from "react-toastify";
 import { useRouter } from "next/router";
-import Loading from "@/Components/Loading";
+import Loading from "@/components/Loading";
 
 export default function LoginScreen() {
   const { data: session } = useSession();

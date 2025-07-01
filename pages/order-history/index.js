@@ -2,11 +2,11 @@ import axios from "axios";
 import Link from "next/link";
 import React, { useEffect, useReducer } from "react";
 import Head from "next/head";
-import Container from "@/Components/Container";
-import Footer from "@/Components/Footer";
-import Pheader from "@/Components/Pheader";
-import { getError } from "@/Utils/error";
-import Loading from "@/Components/Loading";
+import Container from "@/components/Container";
+import Footer from "@/components/Footer";
+import Pheader from "@/components/Pheader";
+import { getError } from "@/utils/error";
+import Loading from "@/components/Loading";
 
 function reducer(state, action) {
   switch (action.type) {

@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { Store } from "@/Utils/Store";
+import { Store } from "@/utils/store";
 import { IoClose } from "react-icons/io5";
 import { LuCirclePlus } from "react-icons/lu";
 import { MdKeyboardArrowRight } from "react-icons/md";
