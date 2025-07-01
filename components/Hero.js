@@ -9,6 +9,7 @@ const Hero = () => {
     "https://img.freepik.com/free-photo/portrait-happy-handsome-young-man-posing-isolated-background_1150-63507.jpg",
     "https://img.freepik.com/free-photo/young-handsome-man-walking-down-street_1303-24594.jpg",
   ];
+  
 
   const [count, setCount] = useState(0);
 
@@ -17,7 +18,7 @@ const Hero = () => {
         setCount((pv) => (pv + 1) % images.length);
     }, 1500);
     return () => clearInterval(timer);
-  },[]);
+  },[images]);
 
   return (
     <div className=" h-96 rounded-md overflow-hidden bg-cover bg-center relative">

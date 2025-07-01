@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import Image from "next/image";
-import { Store } from "@/utils/storee;
+import { Store } from "@/utils/store";
 import { LuCirclePlus, LuCircleMinus } from "react-icons/lu";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
