@@ -1,4 +1,3 @@
-import "tailwindcss/tailwind.css";
 import "@/styles/globals.css";
 import { SessionProvider, useSession } from "next-auth/react";
 import { StoreProvider } from "../utils/store";
