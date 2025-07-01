@@ -4,6 +4,7 @@ import { StoreProvider } from "@/utils/store";
 import { ThemeProvider } from "next-themes";
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 import { useRouter } from "next/router";
+import { Analytics } from '@vercel/analytics/next';
 
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
@@ -22,6 +23,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
               <Component {...pageProps} />
             </ThemeProvider>
           )}
+          <Analytics />
         </PayPalScriptProvider>
       </StoreProvider>
     </SessionProvider>
