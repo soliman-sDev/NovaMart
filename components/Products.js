@@ -5,7 +5,7 @@ const Products = ({ products }) => {
   return (
     <>
       <h3 className="dark:text-gray-300 text-gray-700 text-2xl font-medium block mt-16">
-        Tech Edition
+        Shirts
       </h3>
       <span className="dark:text-gray-300 mt-3 text-sm text-gray-500">
         {products.length}

@@ -32,9 +32,9 @@ const Hero = () => {
 
         <div className="text-gray-900 bg-opacity-60 flex items-center h-full absolute w-full z-10">
             <div className="px-10 max-w-xl">
-                <h2 className="text-2xl text-white font-semibold">Tech Shirts</h2>
+                <h2 className="text-2xl text-white font-semibold">Shirts</h2>
                 <p className="mt-2 text-gray-400">
-                    Get your fashionable geek mode from here!
+                    Get your fashionable from here!
                 </p>
                 <Link href={`/products`}>
                     <button className="flex items-center mt-4 px-3 py-2 bg-gray-300 text-balck text-sm uppercase font-medium rounded  focus:outline-none focus:bg-gray-700">
